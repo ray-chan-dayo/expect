@@ -1,0 +1,17 @@
+{
+  "name": "@ray-chan-dayo/expect",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ray-chan-dayo",
+  "license": "ISC",
+  "description": "a simple library for error handling during parsing",
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}
